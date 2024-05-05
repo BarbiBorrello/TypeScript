@@ -12,6 +12,8 @@ class Rectangulo {
     this.ancho = ancho;
     this.alto = alto;
   }
+  
+// -------------------------METODOS -------------------------//
 
   calcularArea(): number {
     return this.ancho * this.alto;
@@ -20,6 +22,8 @@ class Rectangulo {
   calcularPerimetro(): number {
     return 2 * (this.ancho + this.alto);
   }
+// ---------------------------------------------------------//  
+
 }
 
 // Crear una instancia de la clase Rectangulo
