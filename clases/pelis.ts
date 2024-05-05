@@ -17,8 +17,8 @@ const peli2 = new Peli();
 peli2.title = "Otra peli";
 peli2.rating = 1;
 
-console.log(peli);
-console.log(peli2);
+console.log(peli.getPeli());
+console.log(peli2.getPeli());
 
 
 
